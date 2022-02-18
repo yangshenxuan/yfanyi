@@ -1,0 +1,21 @@
+{
+  "name": "yfanyi",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@types/md5": "^2.3.2",
+    "commander": "^9.0.0",
+    "md5": "^2.3.0",
+    "yfanyi": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.18"
+  }
+}
